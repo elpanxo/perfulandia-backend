@@ -8,7 +8,7 @@ import java.util.List;
 @RestController("/api/usuarios")
 public class UsuarioController {
 
-    private UsuarioService service;
+    private final UsuarioService service;
 
     public UsuarioController(UsuarioService service) {
         this.service = service;
@@ -33,5 +33,4 @@ public class UsuarioController {
     public void eliminar(@PathVariable Long id){
         service.eliminar(id);
     }
-
 }
