@@ -24,13 +24,15 @@ public class UsuarioController {
         return service.guardar(usuario);
     }
 
-    @GetMapping
+    @GetMapping("/buscar/{id}")
     public Usuario buscar(@PathVariable Long id){
+
         return service.buscar(id);
     }
 
-    @DeleteMapping
+    @DeleteMapping("/eliminar/{id}")
     public void eliminar(@PathVariable Long id){
+
         service.eliminar(id);
     }
 }
