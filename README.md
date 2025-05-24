@@ -1,7 +1,7 @@
-🧾 Proyecto: Transformación Digital - Perfulandia SPA
+# Proyecto: Transformación Digital - Perfulandia SPA
 Este repositorio contiene el desarrollo técnico del sistema basado en microservicios para la empresa Perfulandia SPA, como parte de la Evaluación Parcial 2 de la asignatura Desarrollo Full Stack I.
 
-📦 Descripción General del Proyecto
+##  Descripción General del Proyecto
 📝 Explicar brevemente en qué consiste el sistema, qué problema resuelve y qué beneficios ofrece al reemplazar el antiguo sistema monolítico.
 
 🧩 Arquitectura de Microservicios
