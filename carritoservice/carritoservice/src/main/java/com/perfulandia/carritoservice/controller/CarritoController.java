@@ -39,6 +39,6 @@ public class CarritoController {
 
     //@GetMapping("/productos/{id}")
     //public Producto obtenerProducto(@PathVariable long id){
-    //     return restTemplate.getForObject("http://localhost:8082/api/productos/"+id,Producto.class);
+    //     return restTemplate.getForObject("http://localhost:8082/api/v1/productos/"+id,Producto.class);
     //}
 }
