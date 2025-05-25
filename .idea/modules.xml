@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/logisticaservice/logisticaservice.iml" filepath="$PROJECT_DIR$/logisticaservice/logisticaservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/perfulandia-backend.iml" filepath="$PROJECT_DIR$/.idea/perfulandia-backend.iml" />
+      <module fileurl="file://$PROJECT_DIR$/productservice/productservice.iml" filepath="$PROJECT_DIR$/productservice/productservice.iml" />
+      <module fileurl="file://$PROJECT_DIR$/usuarioservice/usuarioservice.iml" filepath="$PROJECT_DIR$/usuarioservice/usuarioservice.iml" />
+    </modules>
+  </component>
+</project>
