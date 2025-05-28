@@ -44,7 +44,7 @@ public class ProductoController {
         servicio.eliminar(id);
     }
 
-    //Nuevo método
+    //Nuevo metodo
     @GetMapping("/usuario/{id}")
     public Usuario obtenerUsuario(@PathVariable long id){
         return restTemplate.getForObject("http://localhost:8081/api/usuarios/"+id,Usuario.class);

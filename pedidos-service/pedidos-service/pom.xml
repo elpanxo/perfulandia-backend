@@ -5,14 +5,14 @@
 	<parent>
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
-		<version>3.4.5</version>
+		<version>3.5.0</version>
 		<relativePath/> <!-- lookup parent from repository -->
 	</parent>
 	<groupId>com.perfulandia</groupId>
-	<artifactId>usuarioservice</artifactId>
+	<artifactId>pedidos-service</artifactId>
 	<version>0.0.1-SNAPSHOT</version>
-	<name>usuarioservice</name>
-	<description>microservicio de usuario</description>
+	<name>pedidos-service</name>
+	<description>Microservicio de gestión de pedidos para Perfulandia</description>
 	<url/>
 	<licenses>
 		<license/>
