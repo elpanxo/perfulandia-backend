@@ -4,10 +4,16 @@
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/Proyecto/Perfulandia-backend/pedidoservice/pedidoservice/pom.xml" />
         <option value="$PROJECT_DIR$/Proyecto/Perfulandia-backend/carritoservice/carritoservice/pom.xml" />
         <option value="$PROJECT_DIR$/Proyecto/Perfulandia-backend/productservice/productservice/pom.xml" />
         <option value="$PROJECT_DIR$/Proyecto/Perfulandia-backend/usuarioservice/usuarioservice/pom.xml" />
+=======
+        <option value="$PROJECT_DIR$/carritoservice/carritoservice/pom.xml" />
+        <option value="$PROJECT_DIR$/productservice/productservice/pom.xml" />
+        <option value="$PROJECT_DIR$/usuarioservice/usuarioservice/pom.xml" />
+>>>>>>> 3204a1bf61 (Agrega microservicios y configuración inicial)
       </list>
     </option>
   </component>
