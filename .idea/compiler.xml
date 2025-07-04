@@ -3,7 +3,6 @@
   <component name="CompilerConfiguration">
     <annotationProcessing>
       <profile default="true" name="Default" enabled="true" />
-<<<<<<< HEAD
       <profile name="Annotation profile for pedidoservice" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -14,8 +13,6 @@
         </processorPath>
         <module name="pedidoservice" />
       </profile>
-=======
->>>>>>> 3204a1bf61 (Agrega microservicios y configuración inicial)
       <profile name="Annotation profile for usuarioservice" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
@@ -23,21 +20,26 @@
         <processorPath useClasspath="false">
           <entry name="$MAVEN_REPOSITORY$/org/projectlombok/lombok/1.18.38/lombok-1.18.38.jar" />
         </processorPath>
+        <module name="usuarioservice (1)" />
+        <module name="pedidoservice (1)" />
+        <module name="productservice" />
+        <module name="carritoservice (1)" />
         <module name="usuarioservice" />
         <module name="carritoservice" />
-        <module name="productservice" />
+        <module name="productservice (1)" />
       </profile>
     </annotationProcessing>
   </component>
   <component name="JavacSettings">
     <option name="ADDITIONAL_OPTIONS_OVERRIDE">
       <module name="carritoservice" options="-parameters" />
-<<<<<<< HEAD
+      <module name="carritoservice (1)" options="-parameters" />
       <module name="pedidoservice" options="-parameters" />
-=======
->>>>>>> 3204a1bf61 (Agrega microservicios y configuración inicial)
+      <module name="pedidoservice (1)" options="-parameters" />
       <module name="productservice" options="-parameters" />
+      <module name="productservice (1)" options="-parameters" />
       <module name="usuarioservice" options="-parameters" />
+      <module name="usuarioservice (1)" options="-parameters" />
     </option>
   </component>
 </project>
